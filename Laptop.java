@@ -54,6 +54,7 @@ class Laptop {
         this.price = price;
     }
 
+    @Override
     public String toString()    {
         StringBuilder laptop = new StringBuilder();
         laptop.append("\n\nLaptop information:\n");
